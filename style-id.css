@@ -37,6 +37,11 @@
     height: 200px;
     border-radius: 15px;
 }
+#banner-game-la-cb{
+    width: 350px;
+    border-radius: 15px;
+}
+
 /*RODAPÉ*/
 #redes-rodape{
     color: white;

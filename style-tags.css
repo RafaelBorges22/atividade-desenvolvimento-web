@@ -9,9 +9,6 @@ header{
     flex-direction: row;
     margin: 25px;
 }
-main{
-    margin: 25px;
-}
 h1{
     margin:auto;
 }
@@ -23,12 +20,22 @@ img{
     width: auto;
     margin: 0;
 }
-section{
-    text-align: center;
-}
 
 /*CONTEÚDO*/
-
+article{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+main{
+    margin: 15px;
+}
 /*RODAPÉ*/
 footer{
 background-color:rgb(37, 37, 112);

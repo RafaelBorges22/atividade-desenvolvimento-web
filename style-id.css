@@ -1,0 +1,57 @@
+/*CABEÇALHO*/
+#link-up:hover
+{
+    font-size: 36px;
+    color:red;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+#link-up-right:hover
+{
+    font-size: 36px;
+    color:red;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+#link-up{
+    margin: 0;
+    margin-left: 25px;
+}
+
+#logo{
+    height: 100%;
+    width: 300px;
+    margin: 0;
+}
+#carrinho{
+    height: 50px;
+    width: 50px;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+
+/*CONTEÚDO*/
+#banner-game{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+/*RODAPÉ*/
+#redes-rodape{
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#icon-redes{
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+#icon-redes:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+    height: 60px;
+    width: 60px;
+}

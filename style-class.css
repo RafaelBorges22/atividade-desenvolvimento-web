@@ -8,5 +8,13 @@
 .text{
   display: flex;
   flex-direction: row;
-  
+  text-align: center;
+}
+.title-dec{
+  text-align: center;
+  align-items: center;
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 3rem;
+  color: white;
 }

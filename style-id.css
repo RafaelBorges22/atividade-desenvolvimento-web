@@ -24,6 +24,11 @@
 /*CONTEÚDO*/
 #principal{
     background-image: linear-gradient(to right, #00448D, #DB1A32);
+    flex-direction:column;
+    align-items: center;
+}
+#dec-90{
+    text-align: center;
 }
 #banner-game{
     width: 300px;
@@ -36,7 +41,22 @@
 }
 #txt-games{
     text-align: center;
+    justify-content: center;
     display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+}
+#dec-20{
+    float: inline-end;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#txt-games:hover{
+    font-size: 20px;
+}
+#banner-game{
+    border-radius: 100%;
 }
 
 /*RODAPÉ*/

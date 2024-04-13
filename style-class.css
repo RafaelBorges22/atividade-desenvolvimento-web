@@ -1,3 +1,45 @@
+@media only screen and (max-device-width: 900px) {
+   .menu { width:100%; } 
+   .font-nav{font-size: 20px;}
+   .nav-cab{
+    flex-direction: column;
+   }
+   .header-nav{
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+   }
+   .class-main{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+   }
+  }
+  @media only screen and (max-device-width: 900px) {
+     .menu { width:600px; } 
+     .font-nav{font-size: 20px;}
+     .nav-cab{
+      flex-direction: column;
+     }
+     .header-nav{
+      justify-content: center;
+      text-align: center;
+      margin-left: 40%;
+     }
+    }
+    @media only screen and (max-device-width: 700px) {
+      .menu { width:400px; } 
+      .font-nav{font-size: 20px;}
+      .nav-cab{
+        flex-direction: column;
+       }
+       .header-nav{
+        justify-content: center;
+        text-align: center;
+        margin-left: 40%;
+       }
+      }
+
 .hall-games{
   display: flex;
   flex: 1;
